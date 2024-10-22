@@ -1,0 +1,7 @@
+import pyperclip
+
+link = input("Enter the link to beam: ")
+
+pyperclip.copy(link)
+
+print("Link has been beamed to clipboard!")
